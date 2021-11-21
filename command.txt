@@ -2,6 +2,7 @@ alias glog="git log --all --decorate --oneline --graph"
 git log
 git status
 git add filename
-git commit -am "click here a comment" ### -a= add file -m=add comment
+git commit -am "click here a comment" ### -a= add file -m=add comment for existing file
 git show
 git diff 60ff056 56fa076 
+
