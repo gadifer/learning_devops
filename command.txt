@@ -5,4 +5,4 @@ git add filename
 git commit -am "click here a comment" ### -a= add file -m=add comment for existing file
 git show
 git diff 60ff056 56fa076 
-
+git checkout 60ff056 ## show me the last or other snap
