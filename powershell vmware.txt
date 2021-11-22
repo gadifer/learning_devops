@@ -1,0 +1,3 @@
+ Get-VM | Select @{Label = "VM Name" ; Expression = {$_.Name} },@{Label = "Guest OS" ; Expression = {$_.ExtensionData.Config.GuestFullName} }
+ Get-VM|Select Name,Id
+ Get-Template |Select Name,Id
